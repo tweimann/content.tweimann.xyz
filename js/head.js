@@ -1,5 +1,5 @@
 const path = window.location.pathname;
-var title = path.substring(path.lastIndexOf("/") + 1, path.lastIndexOf(".html") + 2).replace('index', 'home');
+var title = path.substring(path.lastIndexOf("/") + 1, path.lastIndexOf(".html")).replace('index', 'home');
 if (path === '/') {var formattedPath = 'home'};
 var formattedTitle = title.substring(2) + ' | tweimann';
 var favicon = title.substring(0, 1) + '.ico';
