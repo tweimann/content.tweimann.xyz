@@ -1,6 +1,5 @@
 document.write('\
     <head>\
-        <title>Home | tweimann</title>\
         <script src="https://content.tweimann.xyz/js/head.js"></script>\
     </head>\
     <body>\

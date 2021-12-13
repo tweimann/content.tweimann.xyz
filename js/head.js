@@ -1,11 +1,13 @@
-var title = window.location.hostname.substring(1, window.location.hostname.indexOf('.'))
-var favicon = window.location.hostname.substring(0, 1) + '.ico'
+const path = window.location.pathname;
+var title = path.substring(path.lastIndexOf("/"), path.lastIndexOf(".html") + 2).replace('index', 'home');
+if (path === '/') {var formattedPath = 'home'};
+var formattedTitle = title.substring(1) + ' | tweimann';
+var favicon = title.substring(0, 1) + '.ico';
 
 document.write('\
-<link rel="shortcut icon" type="image/png" href="./icons/favicon.png"/>\
-<title>Home | tweimann</title>\
+<link rel="shortcut icon" type="image/ico" href="./icons/abc/' + favicon + '"/>\
+<title>' + formattedTitle + '</title>\
 <link rel="stylesheet" href="./style.css">\
 <link rel="preconnect" href="https://fonts.googleapis.com">\
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">\
-');
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">');
