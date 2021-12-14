@@ -10,7 +10,7 @@ document.write('\
         </div>\
         <br>\
         <div align="center">\
-            <a style="font-size: 20px;" target="_blank" rel="noopener noreferrer" href="https://' + window.location.hostname + '"><h3>HOME</h3></a>\
+            <a style="font-size: 20px;" target="_blank" rel="noopener noreferrer" href="https://' + window.location.hostname + '"><h3>Home</h3></a>\
         </div>\
         <script src="https://content.tweimann.xyz/js/footer.js"></script>\
     </body>\
