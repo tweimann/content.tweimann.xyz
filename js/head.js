@@ -1,10 +1,10 @@
 const urlpath = window.location.pathname;
 var title = urlpath.substring(urlpath.lastIndexOf("/") + 1, urlpath.lastIndexOf(".html")).replace('index', 'home');
 if (urlpath === '/') {var formattedPath = 'home'};
-var formattedTitle = title.substring(1) + ' | tweimann';
+var formattedTitle = title + ' | tweimann';
 if (formattedTitle === ' | tweimann') {
     var title = 'tweimann';
-    var formattedTitle = 'weimann';
+    var formattedTitle = 'tweimann';
 }
 var favicon = title.substring(0, 1) + '.ico';
 

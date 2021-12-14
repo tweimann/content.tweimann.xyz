@@ -104,3 +104,12 @@ footer {
 .heart:hover {
     color: red;
 }
+
+.table {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    align-self: center
+}
