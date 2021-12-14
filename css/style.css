@@ -104,3 +104,9 @@ footer {
 .heart:hover {
     color: red;
 }
+
+.icon {
+    height: 14px;
+    width: 14px;
+    vertical-align: middle;
+}
