@@ -10,9 +10,9 @@ document.write('\
         </div>\
         <br>\
         <div align="center">\
-            <p>
-                <a style="font-size: 20px;" href="https://' + window.location.hostname + '"><h3>>> Home <<</h3></a>\
-            </p>
+            <p>\
+                <a style="font-size: 20px;" href="https://' + window.location.hostname + '"><h3> >> Home << </h3></a>\
+            </p>\
         </div>\
         <script src="https://content.tweimann.xyz/js/footer.js"></script>\
     </body>\
