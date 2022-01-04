@@ -9,7 +9,7 @@ document.write('\
         <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/tweimann"><img src="https://content.tweimann.xyz/icons/gitlab.png" class="socials-icon"></img> @tweimann</a><br>\
     </p>\
     <p class="watermark">\
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/tweimann">tweimann</a> 2021 \u2022 Made with \
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/tweimann">tweimann</a> 2022 \u2022 Made with \
             <a target="_blank" rel="noopener noreferrer" class="heart" href="https://github.com/tweimann/' + window.location.hostname + '/">\u2764</a> in Germany \u2022 \
             <a href="https://tweimann.xyz/imprint.html">Imprint</a>\
     </p>\
