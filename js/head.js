@@ -6,7 +6,7 @@ if (formattedTitle === '/ | tweimann') {
     var title = 'tweimann';
     var formattedTitle = 'tweimann';
 }
-var favicon = title.substring(0, 1) + '.ico';
+var favicon = title.substring(0, 1).toLowerCase() + '.ico';
 
 document.write('\
 <link rel="shortcut icon" type="image/ico" href="https://content.tweimann.xyz/icons/abc/' + favicon + '"/>\
