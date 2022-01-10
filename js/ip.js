@@ -7,3 +7,6 @@ fetch('https://www.cloudflare.com/cdn-cgi/trace')
       }
     });
   });
+
+fetch('https://www.cloudflare.com/cdn-cgi/trace')
+  .then(res => document.write(res));
