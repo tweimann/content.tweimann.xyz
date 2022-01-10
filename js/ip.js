@@ -9,4 +9,7 @@ fetch('https://www.cloudflare.com/cdn-cgi/trace')
   });
 
 fetch('https://www.cloudflare.com/cdn-cgi/trace')
-  .then(res => document.write(res));
+  .then(res => {
+    document.write(res); 
+    console.log(res);
+  });
