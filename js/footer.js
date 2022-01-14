@@ -1,5 +1,4 @@
-document.write('\
-<footer>\
+document.write('<footer>\
     <p class="socials-left">\
         <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://content.tweimann.xyz/icons/instagram.png" class="socials-icon"></img> @tweimann</a><br>\
         <a target="_blank" rel="noopener noreferrer" href="mailto:contact@tweimann.xyz"><img src="https://content.tweimann.xyz/icons/mail.png" class="socials-icon"></img> contact@tweimann.xyz</a><br>\
