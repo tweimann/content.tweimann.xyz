@@ -8,8 +8,7 @@ if (formattedTitle === '/ | tweimann') {
 }
 var favicon = title.substring(0, 1).toLowerCase() + '.ico';
 
-document.write('\
-<link rel="shortcut icon" type="image/ico" href="https://content.tweimann.xyz/icons/abc/' + favicon + '"/>\
+document.write('<link rel="shortcut icon" type="image/ico" href="https://content.tweimann.xyz/icons/abc/' + favicon + '"/>\
 <title>' + formattedTitle + '</title>\
 <link rel="stylesheet" href="https://content.tweimann.xyz/css/style.css">\
 <link rel="preconnect" href="https://fonts.googleapis.com">\
