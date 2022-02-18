@@ -1,7 +1,7 @@
 document.write('<footer>\
     <p class="socials-left">\
         <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://content.tweimann.xyz/icons/instagram.png" class="socials-icon"></img> @tweimann</a><br>\
-        <a target="_blank" rel="noopener noreferrer" href="mailto:contact@twei.men"><img src="https://content.tweimann.xyz/icons/mail.png" class="socials-icon"></img> contact@twei.men</a><br>\
+        <a href="mailto:contact@twei.men"><img src="https://content.tweimann.xyz/icons/mail.png" class="socials-icon"></img> contact@twei.men</a><br>\
     </p>\
     <p class="socials-right">\
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/tweimann"><img src="https://content.tweimann.xyz/icons/github.png" class="socials-icon"></img> @tweimann</a><br>\
