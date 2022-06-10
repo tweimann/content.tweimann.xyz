@@ -64,6 +64,14 @@ footer {
     font-size: 16px;
 }
 
+.text-woh {
+    position: absolute;
+    top: 5px;
+    margin-bottom: 80px;
+    left: 15px;
+    font-size: 16px;
+}
+
 .socials-left {
     font-size: 14px;
     margin: 0;
